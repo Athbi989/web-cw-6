@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JAVASCRIPT CW</title>
+  </head>
+  <body>
+    <script>
+      /* First Part */
+      let myAge = 17;
+
+      // console.log(`${myAge} Years Old`);
+      console.log(`( ${myAge * 5} ) 5 اضعاف عمري`);
+      console.log(`حين أبلغ 5 أضعاف عمري سيبدأ زحل بأستقبال المبرمجين على سطحة`);
+
+      let numberOfYears = 2020 - 1969;
+      console.log(`${numberOfYears} هو عدد الاعوام التي مرت على صعود الإنسان على سطح القمر`);
+
+      /* Second Part */
+      let pets = ["cat", "hamster", "dog", "wolf", "bird"];
+
+      let petDog = {
+        name: "Lucy",
+        age: "2 Years",
+        emoji: "🐶",
+        type: "German",
+      };
+
+      /* Bouns Part */
+      console.log(pets[1]);
+
+      console.log(petDog.emoji);
+
+      /*--------------- BOUNS CONTUNIE ---------------*/
+
+      const name = "Athbi";
+      var age = 17;
+
+      const finalLine = `I'm ${name} and i'm ${age} years old`;
+      console.log(finalLine);
+
+      let math_Equation = age * 5;
+      console.log(math_Equation);
+
+      /*--------------- BOUNS CONTUNIE (2)---------------*/
+      let hoppies = ["Football", "Movies", "Programming", age, "17"];
+      console.log(hoppies.length); //طول المصفوفة
+      hoppies.splice(-1, 1); //احذف اخر عنصر بطريقتي
+      console.log(hoppies); // عناصر المصفوفه
+
+      let myRole = {
+        role: "webProgramming",
+        favourtiePg: "JS",
+        mentors: ["Nancy", "Rahef", "HamdAlmasri"],
+        summary: function () {
+          return `I'm in ${this.role}, and my favourite programming language is ${this.favourtiePg}, my current mentor is ${this.mentors[2]}`;
+        },
+      };
+
+      console.log(myRole.role); // طباعه اسم المسار
+      console.log(myRole.mentors[2]); // مدرسي المساعد
+      console.log(myRole.summary()); // إستعداء الدالة
+    </script>
+  </body>
+</html>
